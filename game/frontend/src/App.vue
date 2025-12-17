@@ -23,7 +23,7 @@ import MainMenu from "./components/MainMenu.vue";
 import { useGameStore } from "@/stores/gameStore.js";
 import FirstPage from "./components/FirstPage.vue";
 import Lobby from "./components/Lobby.vue";
-import Config from "./components/Config.vue"; 
+import Lobby from "./components/Lobby.vue";
 import RoomsUserView from "./components/RoomsUserView.vue";
 import HostCreateLobby from "./components/HostCreateLobby.vue";
 import UserLobby from "./components/UserLobby.vue";
@@ -35,7 +35,7 @@ import { useSoundEffect } from "@/composables/useSoundEffect.js";
 const startGame = ref(false);
 const showMainMenu = ref(false);
 const showLobby = ref(false);
-const showConfig = ref(false);
+// const showConfig = ref(false); // Unused ref removed
 const showHostCreateLobby = ref(false); 
 const showUserLobby = ref(false);
 const showPodio = ref(false);
